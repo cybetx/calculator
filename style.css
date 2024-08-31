@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.calc{
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input{
+    margin-left:35px ;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button{
+    width: 15%;
+    justify-content: space-around;
+    padding: 12px;
+    margin: 3px;
+    margin-left: 35px;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: azure;
+    /* transition: background-color 0.5s ease-in-out; */
+    
+}
